@@ -1,0 +1,161 @@
+================================================================================
+    📤 HOW TO FIND THE FILE UPLOAD FEATURE
+================================================================================
+
+🔴 IMPORTANT: The Streamlit server has been restarted with the new code!
+
+================================================================================
+    🎯 STEP-BY-STEP INSTRUCTIONS
+================================================================================
+
+STEP 1: Refresh Your Browser
+-----------------------------
+1. Go to: http://localhost:8502
+2. Press CTRL + F5 (force refresh) OR
+3. Press F5 to refresh the page
+
+⚠️ If you still see the old page, do a HARD REFRESH:
+   - Chrome/Edge: Ctrl + Shift + R
+   - Firefox: Ctrl + F5
+
+
+STEP 2: Look at the LEFT SIDEBAR
+---------------------------------
+After refreshing, you should see in the LEFT sidebar (not the main area):
+
+┌─────────────────────────────┐
+│  📁 Data Source             │  ← NEW SECTION!
+│                             │
+│  ○ Use Processed Data       │  ← Radio button option 1
+│  ○ Upload New File          │  ← Radio button option 2 (SELECT THIS!)
+│                             │
+└─────────────────────────────┘
+
+
+STEP 3: Select "Upload New File"
+---------------------------------
+Click the radio button next to "Upload New File"
+
+
+STEP 4: You'll See the File Uploader
+-------------------------------------
+After selecting "Upload New File", you'll see:
+
+┌─────────────────────────────┐
+│  Upload CSV file            │
+│  ┌─────────────────────┐   │
+│  │  Browse files       │   │  ← CLICK HERE TO UPLOAD
+│  └─────────────────────┘   │
+│                             │
+│  👆 Please upload a CSV     │
+│     file to view...         │
+│                             │
+│  Expected CSV format:       │
+│  sensor_id,timestamp,...    │
+│                             │
+│  ┌─────────────────────┐   │
+│  │ 📥 Download Sample  │   │  ← Download template
+│  │    CSV Template     │   │
+│  └─────────────────────┘   │
+└─────────────────────────────┘
+
+================================================================================
+    🔍 TROUBLESHOOTING
+================================================================================
+
+Problem 1: I don't see "📁 Data Source" in the sidebar
+-------------------------------------------------------
+Solution:
+1. Make sure you're on the Dashboard page (not Risk Map or Prediction)
+2. Refresh the page (Ctrl + F5)
+3. Check the URL is: http://localhost:8502
+
+
+Problem 2: The page looks the same as before
+---------------------------------------------
+Solution:
+1. Hard refresh: Ctrl + Shift + R
+2. Clear browser cache
+3. Close browser tab and reopen
+
+
+Problem 3: I see filters but no Data Source section
+----------------------------------------------------
+Solution:
+The Data Source section appears ABOVE the filters in the sidebar.
+Scroll UP in the sidebar to see it!
+
+
+Problem 4: Server not responding
+---------------------------------
+Solution:
+1. Check if server is running (look for terminal with Streamlit output)
+2. Restart server:
+   - Go to terminal
+   - Press Ctrl+C to stop
+   - Run: python -m streamlit run frontend/app.py
+
+================================================================================
+    📸 VISUAL GUIDE - What You Should See
+================================================================================
+
+LEFT SIDEBAR (from top to bottom):
+-----------------------------------
+
+1. [Logo/Header]
+
+2. 📁 Data Source               ← NEW! Look for this header
+   ○ Use Processed Data
+   ○ Upload New File            ← Click this!
+
+3. ─────────────────            ← Separator line
+
+4. 🔍 Filters                   ← Existing filters section
+   [Region dropdown]
+   [Magnitude slider]
+   [Severity dropdown]
+
+5. [Navigation menu at bottom]
+
+================================================================================
+    ✅ VERIFICATION
+================================================================================
+
+If upload feature is working, you should:
+
+✓ See "📁 Data Source" at the TOP of the left sidebar
+✓ See two radio button options
+✓ When you select "Upload New File", see a file uploader
+✓ See a "📥 Download Sample CSV Template" button
+
+================================================================================
+    🆘 STILL CAN'T FIND IT?
+================================================================================
+
+Try this:
+1. Close ALL browser tabs showing the dashboard
+2. Open a NEW INCOGNITO/PRIVATE window
+3. Go to: http://localhost:8502
+4. The upload feature should be visible at the top of the left sidebar
+
+If STILL not visible:
+- Check the terminal for any error messages
+- Verify the server restarted successfully
+- The terminal should show: "You can now view your Streamlit app..."
+
+================================================================================
+    📞 CURRENT SERVER STATUS
+================================================================================
+
+Server is running at: http://localhost:8502
+Last restarted: Just now (with upload feature)
+
+Expected in sidebar:
+- FIRST: 📁 Data Source (with radio buttons)
+- THEN: 🔍 Filters (existing)
+
+================================================================================
+
+🎯 The upload feature is in the LEFT SIDEBAR at the TOP, not in the main area!
+
+Make sure to REFRESH your browser after reading this guide!

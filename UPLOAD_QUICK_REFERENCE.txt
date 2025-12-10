@@ -1,0 +1,128 @@
+================================================================================
+    📤 FILE UPLOAD FEATURE - QUICK REFERENCE
+================================================================================
+
+✅ FEATURE ADDED: You can now upload your own earthquake data files!
+
+================================================================================
+    🚀 HOW TO USE
+================================================================================
+
+1. Open Dashboard: http://localhost:8502
+
+2. In the LEFT SIDEBAR:
+   - Look for "📁 Data Source"
+   - Select "Upload New File"
+
+3. Click "Browse files" button
+
+4. Select your CSV file
+
+5. View instant results!
+
+================================================================================
+    📋 REQUIRED CSV FORMAT
+================================================================================
+
+Your CSV must have these 7 columns:
+
+sensor_id,timestamp,latitude,longitude,magnitude,depth,region
+
+Example:
+S01,2024-01-02 05:22:01,34.11,-117.22,5.4,12,California
+S02,2024-01-03 08:15:23,35.68,139.65,6.2,25,Japan
+
+================================================================================
+    📥 DOWNLOAD SAMPLE TEMPLATE
+================================================================================
+
+Option 1: In the upload section, click "📥 Download Sample CSV Template"
+
+Option 2: Use this file: data/sample_upload_template.csv
+
+================================================================================
+    ✨ AUTOMATIC PROCESSING
+================================================================================
+
+When you upload, the system automatically calculates:
+
+✅ Severity Level (Low/Medium/High)
+✅ Hazard Level (0-3)
+✅ Depth Category (Shallow/Intermediate/Deep)
+✅ Alert Messages
+✅ Risk Probabilities
+
+================================================================================
+    🎯 FEATURES AVAILABLE
+================================================================================
+
+After upload, you can use:
+
+✅ Dashboard - Charts, filters, metrics
+✅ Risk Map - Interactive map with markers
+✅ All visualizations - Plots and graphs
+✅ Data download - Export filtered results
+
+Note: Prediction page still uses processed data
+
+================================================================================
+    🔄 SWITCHING MODES
+================================================================================
+
+Use Processed Data:
+- Shows pre-loaded 30 earthquake records
+- From output/alerts_simple.csv
+
+Upload New File:
+- Use your own custom data
+- Data persists across Dashboard & Risk Map pages
+
+================================================================================
+    📊 FILE SIZE LIMITS
+================================================================================
+
+Recommended:
+< 1 MB      (< 10,000 records)  ⚡ Excellent
+1-5 MB      (10K-50K records)   ✅ Good
+5-10 MB     (50K-100K records)  ⚠️ May be slow
+> 10 MB     (> 100K records)    ❌ Not recommended
+
+================================================================================
+    ❌ COMMON ERRORS
+================================================================================
+
+Error: "Missing required columns"
+→ Check your CSV has all 7 columns
+
+Error: "Error reading file"
+→ Save as UTF-8 encoded CSV
+
+Error: "Cannot parse timestamp"
+→ Use format: YYYY-MM-DD HH:MM:SS
+
+================================================================================
+    💡 QUICK TIPS
+================================================================================
+
+✅ Start with small sample (5-10 records) to test
+✅ Keep column names EXACTLY as specified
+✅ Remove duplicate records
+✅ Ensure no missing values
+✅ Use Excel or Google Sheets to prepare data
+
+================================================================================
+    📁 SAMPLE FILES
+================================================================================
+
+data/sample_upload_template.csv  - Template to fill
+data/earthquake_data.csv         - Full example dataset
+
+================================================================================
+    📚 FULL DOCUMENTATION
+================================================================================
+
+For complete guide, see: FILE_UPLOAD_GUIDE.md
+
+================================================================================
+
+🎉 Now you can analyze ANY earthquake dataset - no coding required!

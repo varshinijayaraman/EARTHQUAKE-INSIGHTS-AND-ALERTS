@@ -1,0 +1,164 @@
+================================================================================
+    ✅ UPLOAD FEATURE NOW IN MAIN CONTENT AREA!
+================================================================================
+
+🔴 MAJOR CHANGE: The upload feature has been MOVED to the MAIN CONTENT AREA
+                  (not the sidebar anymore)
+
+================================================================================
+    🎯 WHERE TO FIND IT NOW
+================================================================================
+
+STEP 1: Refresh Your Browser
+-----------------------------
+URL: http://localhost:8502
+Press: Ctrl + Shift + R (hard refresh)
+
+
+STEP 2: Look in the MAIN CONTENT AREA (Not Sidebar!)
+-----------------------------------------------------
+The upload feature is now RIGHT AT THE TOP of the main content area!
+
+You'll see this IMMEDIATELY after the header:
+
+┌─────────────────────────────────────────────────────────────┐
+│  🌍 Earthquake Alert Dashboard                              │ ← Header
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  📁 Data Source                                              │ ← THIS IS IT!
+│  ┌─────────────────────────────────────────────┐            │
+│  │ ○ Use Processed Data    ○ Upload New File  │ ← RADIO    │
+│  └─────────────────────────────────────────────┘            │
+│                                                              │
+│  ─────────────────────────────────────────────────────────  │
+│                                                              │
+│  [Upload interface appears here when selected]              │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+
+
+STEP 3: Select "Upload New File"
+---------------------------------
+Click the radio button: "Upload New File"
+
+
+STEP 4: Upload Your File
+-------------------------
+You'll see a large, prominent upload area:
+
+┌─────────────────────────────────────────────────────────────┐
+│  Upload CSV file                   Expected CSV format:      │
+│  ┌───────────────────────┐         sensor_id,timestamp,...  │
+│  │  Drag and drop file   │                                   │
+│  │  here                 │         ┌──────────────────────┐ │
+│  │                       │         │ 📥 Download Sample   │ │
+│  │  - or -               │         │    CSV               │ │
+│  │                       │         └──────────────────────┘ │
+│  │  Browse files         │                                   │
+│  └───────────────────────┘                                   │
+└─────────────────────────────────────────────────────────────┘
+
+================================================================================
+    📸 VISUAL LAYOUT
+================================================================================
+
+MAIN PAGE (center):                      SIDEBAR (left):
+─────────────────────                    ─────────────────
+                                         🌍 Navigation
+🌍 Earthquake Alert Dashboard            ○ Dashboard ✓
+                                         ○ Risk Map
+📁 Data Source ← UPLOAD IS HERE!         ○ Prediction
+○ Use Processed Data                     ○ Spark Web UI
+○ Upload New File                        ───────────────
+                                         🔍 Filters
+─────────────────                        [filters here]
+                                         
+[When "Upload" selected:]                
+Upload CSV file
+[Large upload box]
+
+─────────────────
+
+📊 Key Metrics
+[4 metric cards]
+
+📈 Data Visualizations
+[4 charts]
+
+🚨 Recent Alerts
+[table]
+
+================================================================================
+    🎯 KEY CHANGES
+================================================================================
+
+BEFORE (Old):
+- Upload was in sidebar (hard to find)
+- Below navigation menu
+- Small upload widget
+
+AFTER (New):
+- Upload is in MAIN CONTENT area (very visible!)
+- RIGHT at the top
+- Large, prominent upload interface
+- Side-by-side radio buttons
+- Sample CSV code and download button visible
+
+================================================================================
+    ✅ WHAT YOU'LL SEE NOW
+================================================================================
+
+1. Open http://localhost:8502
+2. Refresh (Ctrl + Shift + R)
+3. IMMEDIATELY see "📁 Data Source" at the top of the page
+4. See TWO radio buttons side by side
+5. Click "Upload New File"
+6. See LARGE upload box with drag-and-drop area
+7. See "Expected CSV format" example on the right
+8. See "📥 Download Sample CSV" button
+
+================================================================================
+    🆘 TROUBLESHOOTING
+================================================================================
+
+If you STILL don't see it:
+
+1. ✅ Make sure URL is: http://localhost:8502
+2. ✅ Make sure you're on "📊 Dashboard" page (check sidebar)
+3. ✅ Do HARD refresh: Ctrl + Shift + R
+4. ✅ Close browser completely and reopen
+5. ✅ Try incognito/private window
+
+The upload section is now IMPOSSIBLE TO MISS - it's the first thing after
+the main header!
+
+================================================================================
+    📊 NEW LAYOUT SUMMARY
+================================================================================
+
+Main Content Area (TOP TO BOTTOM):
+───────────────────────────────────
+1. 🌍 Header
+2. 📁 Data Source ← YOU ARE HERE! UPLOAD FEATURE!
+3. ───────────────
+4. 📊 Key Metrics
+5. 📈 Visualizations
+6. 🚨 Alerts Table
+
+Left Sidebar:
+─────────────
+1. 🌍 Navigation
+2. ───────────────
+3. 🔍 Filters
+4. ───────────────
+5. 🔗 System Links
+6. ───────────────
+7. ℹ️ About
+
+================================================================================
+
+🎉 The upload feature is now FRONT AND CENTER in the main content area!
+
+You CANNOT miss it - it's the FIRST section right after the header!
+
+REFRESH YOUR BROWSER NOW: http://localhost:8502
