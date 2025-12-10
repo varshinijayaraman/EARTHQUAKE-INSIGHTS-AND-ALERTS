@@ -1,0 +1,29 @@
+[
+  {
+    "sensor_id": "S01",
+    "timestamp": "2024-01-02 05:22:01",
+    "latitude": 34.11,
+    "longitude": -117.22,
+    "magnitude": 5.4,
+    "depth": 12,
+    "region": "California"
+  },
+  {
+    "sensor_id": "S02",
+    "timestamp": "2024-01-03 08:15:23",
+    "latitude": 35.68,
+    "longitude": 139.65,
+    "magnitude": 6.2,
+    "depth": 25,
+    "region": "Japan"
+  },
+  {
+    "sensor_id": "S03",
+    "timestamp": "2024-01-05 14:30:45",
+    "latitude": 40.73,
+    "longitude": -74.00,
+    "magnitude": 3.1,
+    "depth": 8,
+    "region": "New York"
+  }
+]
